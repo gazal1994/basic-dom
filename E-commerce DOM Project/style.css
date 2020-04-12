@@ -1,0 +1,44 @@
+﻿.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "h h h h h h" 
+        "s s m m m m" 
+        "s s m m m m" 
+        "s s m m m m" 
+        "s s m m m m" 
+        "s s m m m m" 
+        "s s f f f f";
+}
+
+.head {
+    background-color: yellow;
+    grid-area: h;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    color: white;
+    justify-items: center;
+    align-items: center;
+}
+
+.side-nav {
+    background-color: blue;
+    grid-area: s;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.main {
+    background-color: red;
+    grid-area: m ;
+    
+}
+
+.foot {
+    background-color: green;
+    grid-area: f;
+}
