@@ -1,0 +1,23 @@
+{
+  "name": "basic-dom",
+  "version": "1.0.0",
+  "description": "Create by us to let you play with the DOM.\r Play nice.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "review": "node node_modules/elevation-pr/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gazal1994/basic-dom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gazal1994/basic-dom/issues"
+  },
+  "homepage": "https://github.com/gazal1994/basic-dom#readme",
+  "dependencies": {
+    "elevation-pr": "^1.2.0"
+  }
+}
